@@ -11,7 +11,7 @@ body {
 header nav ul {
     background-color: rgb(46, 64, 224);
     list-style: none;
-    text-align: right;
+    text-align: left;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,7 +32,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-header h1 {
+main h1 {
     font-size: 3rem;
     text-align: center;
     margin-top: 80px;
@@ -43,7 +43,7 @@ header h1 {
 main nav ul {
     background-color: gray;
     list-style: none;
-    text-align: left;
+    text-align: right;
 }
 
 main nav ul li {
