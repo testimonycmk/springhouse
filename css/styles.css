@@ -4,65 +4,187 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(253, 253, 235);
+@media screen and (min-width: 350px) {
+
+    body {
+        background-color: rgb(253, 253, 235);
+        font-size: 0.8rem;
+    }
+
+    /* h2 {
+        font-size: 1.2rem;
+    }
+ */
+    header nav ul {
+        background-color: rgb(46, 64, 224);
+        list-style: none;
+        text-align: left;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    main h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: rgb(46, 64, 224);
+    }
+
+    main nav ul {
+        background-color: gray;
+        list-style: none;
+        text-align: right;
+    }
+
+    main nav ul li {
+        display: inline;
+    }
+
+    main nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    main nav ul li a:hover {
+        background-color: rgb(75, 74, 74);
+    }
+
+    .banner {
+        width: 100%;
+        height: 250px;
+    }
+
+    .image {
+        width: 250px;
+        height: 125px;
+    }
+
+    article {
+        margin: 1.5rem;
+    }
+
+    article p {
+        margin: 0.5rem;
+    }
+
+    .center {
+        text-align: center;
+    }
 }
 
-header nav ul {
-    background-color: rgb(46, 64, 224);
-    list-style: none;
-    text-align: left;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+/* media screen for bigger screens */
+@media screen and (min-width: 500px) {
 
-header nav ul li {
-    display: inline-block;
-    padding: 20px;
-}
+    /*   header nav ul li {
+        display: inline-block;
+        padding: 20px;
+    }
 
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
+    main nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 20px;
+    } */
+    body {
+        background-color: rgb(253, 253, 235);
+        font-size: 1rem;
+    }
 
-header nav ul li a:hover {
-    text-decoration: underline;
-}
+    header nav ul {
+        background-color: rgb(46, 64, 224);
+        list-style: none;
+        text-align: left;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 
-main h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    color: rgb(46, 64, 224);
-}
+    header nav ul li {
+        display: inline-block;
+        padding: 20px;
+    }
 
-main nav ul {
-    background-color: gray;
-    list-style: none;
-    text-align: right;
-}
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
 
-main nav ul li {
-    display: inline;
-}
+    header nav ul li a:hover {
+        text-decoration: underline;
+    }
 
-main nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    display: inline-block;
-    padding: 20px;
-}
+    main h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        color: rgb(46, 64, 224);
+    }
 
-main nav ul li a:hover {
-    background-color: rgb(75, 74, 74);
-}
+    main nav ul {
+        background-color: gray;
+        list-style: none;
+        text-align: right;
+    }
 
-.banner{
-    width: 100%;
-    height: 650px;
+    main nav ul li {
+        display: inline;
+    }
+
+    main nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    main nav ul li a:hover {
+        background-color: rgb(75, 74, 74);
+    }
+
+    .banner {
+        width: 100%;
+        height: 650px;
+    }
+
+    .image {
+        width: 600px;
+        height: 400px;
+    }
+
+    article {
+        margin: 2.5rem;
+    }
+
+    article p {
+        margin: 1rem;
+    }
+
+    .center {
+        text-align: center;
+    }
 }
